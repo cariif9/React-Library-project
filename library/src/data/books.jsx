@@ -116,7 +116,7 @@ export const allBooks = [
     desc: 'Sheeko jaceyl iyo xusuuso ka turjumaya dareenka hooyada iyo gabadheeda.',
     category: 'Sheekoyin',
     image: Book13,
-    pdfUrl: '/pdfs/Inanteydiyeey.pdff'
+    pdfUrl: '/pdfs/Inanteydiyeey.pdf'
   },
   {
     id: 14,
