@@ -39,15 +39,14 @@ function App() {
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
         theme={theme}
-        toggleTheme={toggleTheme}
-      />
+        toggleTheme={toggleTheme}/>
 
       <Routes>
         <Route path="/" element={<Home searchQuery={searchQuery} />} />
         <Route path="/books" element={<Books searchQuery={searchQuery} />} />
         <Route path="/book/:id/read" element={<PdfViewer />} />
-        <Route path="/category/:categoryId" element={<CategoryPage searchQuery={searchQuery} />}
-        />      </Routes>
+        <Route path="/category/:categoryId" element={<CategoryPage searchQuery={searchQuery} />}/>      
+        </Routes>
       <Footer />
     </Router>
   );
