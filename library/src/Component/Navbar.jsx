@@ -8,7 +8,7 @@ const Navbar = ({ searchQuery, setSearchQuery, toggleTheme, theme }) => {
   const categories = ["Sheekoyin", "Diini", "Programming"];
   const dropdownRef = useRef(null);
 
-  // Close dropdown if clicked outside
+  
   useEffect(() => {
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
