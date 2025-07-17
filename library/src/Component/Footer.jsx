@@ -12,8 +12,7 @@ const Footer = () => {
        
         <Link
           to="/"
-          className="flex items-center space-x-2 hover:text-yellow-300 transition"
-        >
+          className="flex items-center space-x-2 hover:text-yellow-300 transition">
           <img
             src={logo}
             className="h-8 w-8 rounded-full"

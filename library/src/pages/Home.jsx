@@ -13,7 +13,7 @@ const Home = ({ searchQuery = "" }) => {
         desc.toLowerCase().includes(query)
       );
     })
-    .slice(0, 6); 
+    .slice(3,9,); 
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-gray-100 to-blue-50 dark:from-gray-900 dark:to-gray-800 pt-32 px-4 sm:px-6 md:px-8">

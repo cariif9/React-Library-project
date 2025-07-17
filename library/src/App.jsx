@@ -6,6 +6,7 @@ import CategoryPage from './pages/CategoryPage';
 import Navbar from "./Component/Navbar";
 import Books from "./pages/Books";
 import Home from "./pages/Home";
+import ComingSoon from "./pages/ComingSoon";
 
 import Footer from "./Component/Footer";
 
@@ -45,7 +46,8 @@ function App() {
         <Route path="/" element={<Home searchQuery={searchQuery} />} />
         <Route path="/books" element={<Books searchQuery={searchQuery} />} />
         <Route path="/book/:id/read" element={<PdfViewer />} />
-        <Route path="/category/:categoryId" element={<CategoryPage searchQuery={searchQuery} />}/>      
+        <Route path="/coming-soon" element={<ComingSoon />} />
+         <Route path="/category/:categoryId" element={<CategoryPage searchQuery={searchQuery} />}/>      
         </Routes>
       <Footer />
     </Router>
